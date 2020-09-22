@@ -1,0 +1,57 @@
+{
+    "metadata URL": "https://api.zegal.com/api/meta/doctypes/5f5b28a2d19eca2953f6f121/sample?format=form,strip:sfdt|fields|categories,prettify",
+    "staticdoctype": "5f5f725321da0669ea39eb98",
+    "doctype": "5f5b28a2d19eca2953f6f121",
+    "guide": "5f5b4d8fc12d2201f4acca94",
+    "orgId": "5f56ffbcaf864cfd6f4783d9",
+    "title": "SA API Test",
+    "v": 3,
+    "data": {
+        "fund": {
+          "name": "Dragon Fund",
+          "generalPartner": {
+            "name": "John Smith"
+          },
+          "bankDetails": {
+            "bankName": "Bank of America",
+            "swiftCode": "XHSKDLSIF",
+            "accountName": "Great Fund",
+            "bankCode": "3823828323",
+            "branchCode": "43433232",
+            "accountNumber": "434342323"
+          }
+        },
+        "subscriber": {
+          "name": "Mellon Trust",
+          "registrationAddress": {
+            "street1": "100 Main St",
+            "street2": "Ste 12",
+            "city": "Anywhere",
+            "state": "NE",
+            "zip": "11222",
+            "country": "United States of America"
+          },
+          "phoneNumber": "23231232",
+          "nationality": "United States of America",
+          "type": true,
+          "usPerson": true
+        },
+        "subscription": {
+          "bankDetails": {
+            "bankName": "Capital One Bank",
+            "accountNumber": "4444333322221111",
+            "accountName": "Mellon Trust LLC",
+            "swiftCode": "XSASDASD"
+          },
+          "currencyCode": "USD",
+          "amount": 1200000,
+          "generalPartnerReject": true
+        }
+    },
+    "renderings": {
+        "pdfPointer": true,
+        "docxPointer": true,
+        "pdf": false,
+        "docx": false
+    }
+}
