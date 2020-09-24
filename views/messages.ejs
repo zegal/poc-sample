@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link href="stylesheets/pretty-json.css" rel="stylesheet"></link>
+    <script type="text/javascript" src="javascripts/jquery-1.11.1.min.js" ></script>
+    <script type="text/javascript" src="javascripts/underscore-min.js" ></script>
+    <script type="text/javascript" src="javascripts/backbone-min.js" ></script>
+    <script src="javascripts/pretty-json.js"></script>
+  </head>
+  <body>
+    <div id="result"></div>
+  </body>
+  <script>
+    let data = <%- JSON.stringify(data) %>;
+    const result = document.getElementById("result");
+    var node = new PrettyJSON.view.Node({ 
+        el:result,
+        data: data,
+        dateFormat:"DD/MM/YYYY - HH24:MI:SS"
+    });
+  </script>
+</html>
